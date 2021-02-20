@@ -1,6 +1,6 @@
 import { Logo, NavRecipies,NavCategories,NavStyled } from "../styles";
 
-import foodiesLogo from "../images/Foodiez-logo.jpg";
+import foodiesLogo from "../images/Foodiez-logo.png";
 
 const NavBar = () => {
   return (
@@ -12,7 +12,7 @@ const NavBar = () => {
       <NavCategories className="nav-item nav-link" to="/categories">
             Categories
           </NavCategories>
-        <NavRecipies className="nav-item" to="/recipies">
+        <NavRecipies className="nav-item nav-link" to="/recipes">
           Recipies
         </NavRecipies>
       </div>
